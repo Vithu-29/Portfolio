@@ -8,8 +8,7 @@ export default function Project() {
       name: "HABITRO",
       description:
         "An AI-powered habit tracking app that helps users build or quit habits with AI-generated tasks and motivates users through AI-generated quizzes, streaks, and achievements.",
-      image:
-        "/images/preview.png",
+      image: import.meta.env.BASE_URL + "/images/preview.png",
       liveLink: "", 
       githubLink: "https://github.com/Vithu-29/Project-HABITRO",
       tags: ["Flutter", "Django", "NextJs", "MySQL", "Firebase", "WebSockets",],
@@ -18,8 +17,7 @@ export default function Project() {
       name: "ExStudios.",
       description:
         "A responsive web platform for seamless movie browsing and ticket booking, offering intuitive interfaces for selecting movies, reserving seats, and viewing schedules.",
-      image:
-        "/images/Exstudios.png",
+      image: import.meta.env.BASE_URL + "/images/Exstudios.png",
       liveLink: "https://vithu-29.github.io/ExStudios/",
       githubLink: "https://github.com/Vithu-29/ExStudios",
       tags: ["HTML", "CSS", "JavaScript"],
@@ -28,8 +26,7 @@ export default function Project() {
       name: "Automated Juice Maker",
       description:
         "An automated juice dispensing machine designed for precise operation and user convenience.",
-      image:
-        "/images/juice.jpg",
+      image: import.meta.env.BASE_URL + "/images/juice.jpg",
       liveLink: "",
       githubLink: "https://github.com/Vithu-29",
       tags: ["Arduino", "C/C++", "Ultrasonic ", "IR Sensor"],
