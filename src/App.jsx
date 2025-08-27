@@ -1,6 +1,6 @@
 import { ThemeProvider } from "./components/ThemeProvider";
 import Navbar from "./components/Navbar";
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 
