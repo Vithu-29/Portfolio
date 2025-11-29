@@ -130,7 +130,7 @@ const educationData = [
     title: "Bachelor of Science Honours in IT",
     university: "University of Moratuwa",
     year: "May 2023 - Present",
-    cgpa: "3.50 / 4.0",
+    cgpa: "3.57 / 4.0",
   },
 ];
 

@@ -1,12 +1,12 @@
-import { Mail,Github, Linkedin} from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
 	const primaryContacts = [
 		{
 			icon: <Mail size={24} />,
 			name: "Email",
-			value: "Vithuvithush44@gmail.com",
-			link: "mailto:Vithuvithush44@gmail.com",
+			value: "Vithukanes@gmail.com",
+			link: "mailto:vithukanes@gmail.com",
 		},
 		{
 			icon: <Github size={24} />,
@@ -18,7 +18,7 @@ export default function Contact() {
 			icon: <Linkedin size={24} />,
 			name: "LinkedIn",
 			value: "vithushan-kanesamoorthy",
-			link: "https://www.linkedin.com/in/vithushan-kanesamoorthy/",
+			link: "https://www.linkedin.com/in/vithu29/",
 		},
 	];
 

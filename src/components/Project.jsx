@@ -5,11 +5,29 @@ import { ExternalLink, Github } from "lucide-react";
 export default function Project() {
   const projects = [
     {
+      name: "Automobile Service Management System",
+      description:
+        "A microservices-based project for managing service bookings, job assignments, inventory, billing, and real-time tracking. Includes role-based dashboards, admin modules for employees, branches, and inventory, plus a chatbot to guide users.",
+      image: import.meta.env.BASE_URL + "images/ongoing.png",
+      liveLink: "",
+      githubLink: "https://github.com/Vithu-29/Automobile-Service-Management-System",
+      tags: ["Django", "MySQL", "Nextjs", "Springboot", "SentenceTransformer"],
+    },
+    {
+      name: "Orix: Ecommerce Mobile Application",
+      description:
+        "A responsive Flutter app where users can browse products, add items to the cart, checkout securely, and manage their profiles. Built with GetX for smooth state management and integrated with Firebase Authentication and Firestore for secure login and real-time data handling.",
+      image: import.meta.env.BASE_URL + "images/orix.png",
+      liveLink: "",
+      githubLink: "https://github.com/Vithu-29/Orix",
+      tags: ["Flutter", "Firebase", "Getx",],
+    },
+    {
       name: "HABITRO",
       description:
         "An AI-powered habit tracking app that helps users build or quit habits with AI-generated tasks and motivates users through AI-generated quizzes, streaks, and achievements.",
-      image: import.meta.env.BASE_URL + "images/preview.png",
-      liveLink: "", 
+      image: import.meta.env.BASE_URL + "images/habitro.png",
+      liveLink: "https://youtu.be/uANcASu3fII",
       githubLink: "https://github.com/Vithu-29/Project-HABITRO",
       tags: ["Flutter", "Django", "NextJs", "MySQL", "Firebase", "WebSockets",],
     },
@@ -17,7 +35,7 @@ export default function Project() {
       name: "ExStudios.",
       description:
         "A responsive web platform for seamless movie browsing and ticket booking, offering intuitive interfaces for selecting movies, reserving seats, and viewing schedules.",
-      image: import.meta.env.BASE_URL + "images/Exstudios.png",
+      image: import.meta.env.BASE_URL + "images/studios.png",
       liveLink: "https://vithu-29.github.io/ExStudios/",
       githubLink: "https://github.com/Vithu-29/ExStudios",
       tags: ["HTML", "CSS", "JavaScript"],

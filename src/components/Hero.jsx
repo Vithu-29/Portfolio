@@ -4,7 +4,7 @@ import { ArrowRightIcon, Github, Linkedin } from "lucide-react";
 export default function Hero() {
   const socialLinks = [
     { icon: <Github size={20} />, name: "GitHub", link: "https://github.com/Vithu-29" },
-    { icon: <Linkedin size={20} />, name: "LinkedIn", link: "https://www.linkedin.com/in/vithushan-kanesamoorthy/" },
+    { icon: <Linkedin size={20} />, name: "LinkedIn", link: "https://www.linkedin.com/in/vithu29/" },
   ];
 
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="container lg:px-28">
         <div className="flex items-center justify-center">
           <div className="relative w-[200px] h-[200px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-lg">
-            <img src="./profile-edited.jpg" alt="Developer working" className="w-full h-full object-cover" />
+            <img src="./profilepic.png" alt="Developer working" className="w-full h-full object-cover" />
           </div>
         </div>
 

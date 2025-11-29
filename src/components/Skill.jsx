@@ -27,7 +27,6 @@ export default function Skill() {
       category: "Databases",
       skills: [
         { name: "MySQL", icon: <i className="devicon-mysql-plain colored"></i> },
-        { name: "MSSQL", icon: <i className="devicon-microsoftsqlserver-plain colored"></i> },
         { name: "PostgreSQL", icon: <i className="devicon-postgresql-plain colored"></i> },
       ],
     },
@@ -36,7 +35,7 @@ export default function Skill() {
       skills: [
         {
           name: "Cloudinary",
-          icon: <img src="/cloudinary.svg" alt="Cloudinary" className="w-6 h-6" />,
+          icon: <img src="./cloudinary.svg" alt="Cloudinary" className="w-6 h-6" />,
         },
         { name: "Microsoft Azure", icon: <i className="devicon-azure-plain colored"></i> },
         { name: "Firebase", icon: <i className="devicon-firebase-plain colored"></i> },
